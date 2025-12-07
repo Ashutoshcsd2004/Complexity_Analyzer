@@ -1,0 +1,28 @@
+body {
+  background: radial-gradient(circle at top, #020617 0, #020617 35%, #020817 100%);
+  min-height: 100vh;
+}
+
+.code-area {
+  font-family: "Fira Code", Consolas, monospace;
+  background-color: #020617;
+  color: #e5e7eb;
+}
+
+.result-card {
+  background: rgba(15, 23, 42, 0.8);
+}
+
+.explanation-box {
+  max-height: 260px;
+  overflow-y: auto;
+  background: rgba(15, 23, 42, 0.8);
+}
+
+.explanation-box ul {
+  padding-left: 1.2rem;
+}
+
+.navbar-brand span {
+  letter-spacing: 0.05em;
+}
